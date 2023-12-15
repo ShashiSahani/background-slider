@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to font Awesome stylesheet  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- link to custome stylesheet -->
     <link rel="stylesheet" href="style.css">
     <title>Background Slider</title>
 </head>
 <body>
+    <!-- slider conatiner  -->
     <div class="slider-container">
-        <div class="slider active" 
-        style="background-image: url('./assets/one.jpg')">
-        </div>
-        <div class="slider" 
-        style="background-image: url('./assets/two.jpg')">
-        </div>
-        <div class="slider" 
-        style="background-image: url('./assets/three.jpg')">
-        </div>  <div class="slider" 
-        style="background-image: url('./assets/four.jpg')">
-        </div>  <div class="slider" 
-        style="background-image: url('./assets/five.jpg')">
-        </div>
+        <!-- Individual slider with background images  -->
+        <div class="slider active" style="background-image: url('./assets/one.jpg');"></div>
+        <div class="slider" style="background-image: url('./assets/two.jpg');"></div>
+        <div class="slider" style="background-image: url('./assets/three.jpg');"></div>
+        <div class="slider" style="background-image: url('./assets/four.jpg');"></div>
+        <div class="slider" style="background-image: url('./assets/five.jpg');"></div>
+        
+        <!-- Navigation arrow  -->
         <div class="arrow left-arrow" id="left">
+             <!-- Left arrow icon -->
             <i class="fas fa-arrow-left"></i>
         </div>
         <div class="arrow right-arrow" id="right">
+             <!-- right arrow icon -->
             <i class="fas fa-arrow-right"></i>
         </div>
     </div>
+    <!-- Script for slider functionality  -->
     <script src="script.js"></script>
 </body>
 </html>
